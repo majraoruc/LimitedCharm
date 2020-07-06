@@ -1,0 +1,66 @@
+.brendovi-wrapper {
+    background-color: #ecefe9;
+}
+
+.brendovi {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    position: relative;
+}
+
+.brendovi-naslov {
+    padding: 0 35px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.brend-slika {
+    max-width: 358px;
+    max-height: 175px;
+}
+
+.brand {
+    max-width: 358px;
+    max-height: 175px;
+}
+
+
+
+.brendovi-slike-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 0px 35px 0px 35px;
+    max-width: 1600px;
+   
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:1560px) {
+    .brendovi-slike-wrapper {
+        display: flex;
+        flex-direction: row;
+        /* padding: 0px 35px 0px 35px; */
+        
+        justify-content: space-evenly;
+    }
+    .brend-slika {
+        width: 300px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 35px;
+    }
+    .brand {
+        width: 300px;
+        height: 120px;
+    }
+    
+}

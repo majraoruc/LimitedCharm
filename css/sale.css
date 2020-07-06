@@ -1,0 +1,125 @@
+.sale-wrapper{
+        background-color:#ecefe9;
+}
+.sale-inner-wrapper{
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    margin: auto;
+    position: relative;
+    
+}
+.sale-title-wrapper{
+    font-size: 45px;
+   margin-left: 50px;
+    margin-bottom: 100px;
+}
+.sale-arrows-wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between; 
+    width:100%;
+    position: absolute;
+    top:350px;  
+    z-index: 10;  
+}
+.sale-arrow-left{}
+.sale-arrow-right{}
+
+.sale-items-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 50px;
+    width:90%;
+}
+
+.sale-item-wrapper{
+    max-width:356px;
+    max-height:600px;
+    width:100%;
+    height:100%;
+    background-color: #ffffff ;
+    position:relative;
+    
+}
+.sale-image-wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    top:-60px;
+   
+
+}
+.sale-image{
+   width:120px;
+   height:220px;
+   
+}
+.sale-item-text-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 50px 15px 20px 15px;
+
+}
+.sale-item-title-wrapper{
+    margin-top:130px;
+    margin-bottom: 25px;
+}
+.sale-item-text{
+   font-size:20px;
+}
+.sale-item-price{
+    margin:20px 0;
+    color:#377d3c;
+    font-weight: 600;
+}
+.sale-item-button{
+    width:170px;
+    height:55px;
+    background-color: #92c83e;
+    color:white;
+    font-size:25px;
+    margin:auto;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-top:10px; */
+    line-height: 2.25;
+    
+}
+
+.sale-item-button{
+    cursor: pointer;
+}
+.sale-item-button:focus, .sale-item-button:focus{
+    outline: none;
+}
+
+
+
+@media screen and (max-width:1560px){
+    .sale-item-wrapper{
+        max-width:320px;
+    }
+}
+@media screen and (max-width:1420px){
+    .sale-item-wrapper{
+        max-width:300px;
+    }
+}
+@media screen and (max-width:1330px){
+    .sale-item-wrapper{
+        max-width:280px;
+    }
+}
+/* @media screen and (max-width:1300px){
+#sale-item-4{display:none}
+} */

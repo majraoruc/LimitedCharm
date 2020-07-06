@@ -1,0 +1,33 @@
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: #575757;
+    background-color: #ecefe9;
+}
+button{
+    outline: none;
+}
+h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}

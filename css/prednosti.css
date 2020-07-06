@@ -1,0 +1,112 @@
+.prednosti-wrapper{
+    background-color: #ecefe9;
+}
+
+.prednosti{
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.prednosti-naslov{
+    padding: 0 35px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.prednosti-slike-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 35px 0px 35px;
+}
+
+.prednosti-slika{
+    max-width: 330px;
+    height: 280px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prednosti-tekst{
+    text-align: center;
+    padding:  0px 10px;
+}
+
+@media screen and (max-width:1560px){
+    .prednosti-slike-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 35px 0px 35px;
+    }
+    
+    .prednosti-slika{
+        width: 300px;
+        height: 250px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:1380px){
+    .prednosti-slike-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 50px 0px 50px;
+    }
+    
+    .prednosti-slika{
+        width: 45%;
+        margin-bottom: 20px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    .prednosti-slike-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 35px 0px 35px;
+    }
+    
+    .prednosti-slika{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prednosti-naslov{
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+}

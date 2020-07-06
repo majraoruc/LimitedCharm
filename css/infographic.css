@@ -1,0 +1,52 @@
+.infographic-wrapper{
+
+padding-bottom: 60px;
+margin: auto;
+padding:0 20px;
+background-color: #ecefe9;
+}
+
+
+.infographic-inner-wrapper{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+      
+}
+.infographic-box{   
+    width: 30%;
+    height: 283px;
+    background-image: url('../media/info-tips-card.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    cursor:pointer;
+
+ 
+}
+
+.infographic-icon{
+height:60px;
+width: 60px;
+z-index: 2;
+
+}
+.infographic-text{
+    font-size: 30px ;
+    z-index: 2;
+    color:#5d5d5d ;
+
+}
+
+.infographic-box:hover  {
+    background-image: url('../media/new-info-tip-card.png');
+ 
+}
+.infographic-box:hover .infographic-text {
+    
+    color: #ecefe9;
+}
+

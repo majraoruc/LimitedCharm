@@ -1,0 +1,173 @@
+.magazin-header-text-1{
+    color:#575757;
+   
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.magazin-img-1{
+    width: auto;
+    height: auto
+}
+.magazin-second-title-1{
+    
+    color:#4b4b4b;
+    margin-bottom: 30px;
+}
+.magazin-text-1{
+    font-size: #868686;
+   
+    margin-bottom: 30px;
+}
+.magazin-wrapper-1{
+   
+    width: 100%;
+    background-color: #ecefe9;
+    padding:0 20px;
+}
+
+.magazin-inner-wrapper-1{
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 30px;
+}
+
+.magazin-left-1{
+    display: flex;
+    flex-direction: column;
+  width:50%;
+  height: 800px;
+  margin-right: 30px;
+}
+
+.magazin-right-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 800px;
+    margin-left: 30px;
+}
+
+.magazin-content-box-1{
+    top: 0;
+    background-color: white;    
+    padding: 30px;
+
+}
+
+.magazin-button-1 {
+	background-color:#92c83e;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.magazin-img-1{
+    max-width: 100%;
+    max-height:100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .magazin-left-1{
+      width:45%;
+      height: 800px;
+     
+    }
+    
+    .magazin-right-1{
+        width: 45%;
+        height: 800px;
+      
+    }
+    .magazin-header-text-1{
+        font-size:35px;
+    
+    }
+    .magazin-second-title-1{
+        font-size: 30px;
+      
+    }
+    .magazin-text-1{  
+        font-size: 20px;
+    }
+  }
+
+  /* @media screen and (max-width: 992px) {
+
+    .magazin-left{
+      width:80%;
+      height: auto;
+      margin-right: 0;
+     
+    }
+    
+    .magazin-right{
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+      
+    }
+    .magazin-header-text{
+        font-size:30px;
+    
+    }
+    .magazin-second-title{
+        font-size: 25px;
+      
+    }
+    .magazin-text{  
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+
+    .magazin-left{
+      width:60%;
+      height: auto;
+      margin-right: 0;
+      width: 90%;
+     
+    }
+    
+    .magazin-right{
+        width: 60%;
+        height: auto;
+        margin-left: 0;
+        width: 90%;
+      
+    }
+    .magazin-header-text{
+        font-size:25px;
+    
+    }
+    .magazin-second-title{
+        font-size: 20px;
+      
+    }
+    .magazin-text{  
+        font-size: 16px;
+    }
+    .magazin-img{
+        max-width: auto;
+      max-height:auto;
+    }
+    .magazin-text{
+        text-align: left;
+    }
+    .magazin-button {
+        font-size: 16px;
+        padding:8px 22px;
+    }
+  } */

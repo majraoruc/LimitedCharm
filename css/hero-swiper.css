@@ -1,0 +1,84 @@
+.swiper-background {
+    background-image: url("/media/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}
+
+.swiper-container {
+    max-width: 1600px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    height: 100%;
+    max-width: 1600px;
+    text-align: center;
+    font-size: 18px;
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; */
+    display: flex;
+   
+    /* -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center; */
+    align-items: left;
+   
+}
+
+
+
+.swiper-slide-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slider-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.swiper-slider-image>img {
+    margin-top: 130px;
+}
+
+.swiper-slider-text-header h2 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #6b2b2e;
+    padding-bottom: 40px;
+}
+
+
+.swiper-slider-text-main {
+    font-weight: 600;
+    color: #666666;
+    font-size: 30px;
+    padding-bottom: 60px;
+    width: 50%;
+}
+
+.swiper-slder-text-button>button {
+    padding: 15px 30px 15px 30px;
+    background-color: #f9da4c;
+    border: none;
+    color: #434343;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width : 1620px)
+{
+    .swiper-container {
+        width: 1400px;
+    }
+}
