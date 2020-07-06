@@ -117,3 +117,8 @@
         max-width:280px;
     }
 }
+@media screen and (max-width:683px) {
+    .bulkbuy-item-wrapper{
+        max-width: 600px;
+    }
+}

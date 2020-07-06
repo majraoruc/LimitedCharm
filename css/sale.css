@@ -120,6 +120,11 @@
         max-width:280px;
     }
 }
+@media screen and (max-width:683px){
+    .sale-item-wrapper{
+        max-width:600px;
+    }
+}
 /* @media screen and (max-width:1300px){
 #sale-item-4{display:none}
 } */

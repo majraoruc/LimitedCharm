@@ -16,7 +16,7 @@
 }
 .connect-left-title{
     padding-bottom: 55px;
-    padding-top: 100px;
+    padding-top: 55px;
 }
 
 .connect-left-wrapper, .connect-right-wrapper{
@@ -87,17 +87,33 @@
     height: 120px;
 }
 
- /* @media screen and (max-width:1700px){
-    .connect-inside-wrapper{
-        max-width: 700px;
-        max-height: 605px;
+@media screen and (max-width: 683px) {
+    .connect-main-wrapper{
+        flex-wrap: wrap;
     }
-    .connect-header{
-        width: 700px;
-        height: 200px;
-        
+
+    .connect-left-wrapper{
+        width: 100%;
+    }
+
+    .connect-right-wrapper{
+        width: 100%;
+    }
+
+}
+
+  @media screen and (max-width:1000px){
+    .connect-main-wrapper{
+        flex-wrap: wrap;
+    }
+    .connect-left-wrapper{
+        width: 100%;
+    }
+    .connect-right-wrapper{
+        width: 100%;
     }
 }
+/*
 @media screen and (max-width:1500px){
     .connect-inside-wrapper{
         max-width: 650px;

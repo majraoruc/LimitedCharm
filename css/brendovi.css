@@ -64,3 +64,19 @@
     }
     
 }
+
+@media screen and (max-width:683px) {
+    .brendovi-slike-wrapper {
+       
+        width: 650px;
+    }
+    .brend-slika {
+        width: 650px;
+        
+    }
+    .brand {
+        width: 650px;
+        
+    }
+    
+}
