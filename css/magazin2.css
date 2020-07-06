@@ -1,7 +1,7 @@
 .magazin-header-text-1{
     color:#575757;
    
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 10px;
 
 }
@@ -11,53 +11,72 @@
 }
 .magazin-second-title-1{
     
-    color:#4b4b4b;
+    color:white;
     margin-bottom: 30px;
+    padding: 30px;
 }
 .magazin-text-1{
-    font-size: #868686;
-   
-    margin-bottom: 30px;
+    
+    color: white;
+    margin-bottom: 15px;
+    padding: 0 30px;
 }
 .magazin-wrapper-1{
    
-    width: 100%;
-    background-color: #ecefe9;
-    padding:0 20px;
+    /* width: 100%; */
+    /* background-color: #ecefe9; */
+    /* padding:0 20px; */
+    padding-left: 25px;
 }
 
 .magazin-inner-wrapper-1{
-    max-width: 1600px;
+    max-width: 550px;
+    /* margin-right: 25px; */
     display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding-bottom: 60px;
+    flex-direction: column;
+    /* margin: auto; */
+    /* padding-bottom: 60px; */
     justify-content: space-between;
     /* padding-left: 50px;
     padding-right: 50px; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .magazin-left-1{
     display: flex;
     flex-direction: column;
-  width:48%;
+    width:550px;
+    margin-bottom: 25px;
+    background-image: url("/media/magazine-image.png");
   /* height: 800px; */
   /* margin-right: 30px; */
+}
+
+.mag{
+    background-color: #838181;
+    opacity: 65%;
 }
 
 .magazin-right-1{
     display: flex;
     flex-direction: column;
-    width: 48%;
+    width:550px;
+    background-image: url("/media/sicknesses-image.png");  
+    
     /* height: 800px; */
     /* margin-left: 30px; */
 }
 
 .magazin-content-box-1{
-    top: 0;
-    background-color: white;    
-    padding: 30px;
+    /* top: 0; */
+    /* background-image: url("/media/magazine-image.png");     */
+    /* padding: 30px; */
+
+}
+
+.magazin-content-box-2{
+    /* background-image: url("/media/sickness-image.png");     */
+    /* padding: 30px; */
 
 }
 
@@ -69,7 +88,9 @@
 	color:#ffffff;
 	font-family:Arial;
 	font-size:25px;
-	padding:13px 32px;
+    padding:13px 32px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 	text-decoration:none;
 }
 .magazin-img-1{

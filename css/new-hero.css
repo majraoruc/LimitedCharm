@@ -1,0 +1,17 @@
+.new-thingy{
+    background-image: url("./media/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    margin: 0 25px;
+
+}
+
+.new-thingy-wrapper{
+    
+    display: flex;
+    max-width: 1600px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+}
