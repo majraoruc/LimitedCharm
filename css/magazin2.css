@@ -158,9 +158,50 @@
     .magazin-right-1{
         width: 48%;
     }
-    
-    
+}
 
+@media screen and (max-width: 565px){
+    .magazin-inner-wrapper-1{
+        flex-direction: column;
+        margin: 0;
+        /* max-width: 1000px; */
+    }
+
+    .magazin-wrapper-1{
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    .magazin-left-1{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .magazin-right-1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: px){
+    .magazin-inner-wrapper-1{
+        flex-direction: column;
+        margin: 0;
+        /* max-width: 1000px; */
+    }
+
+    .magazin-wrapper-1{
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    .magazin-left-1{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .magazin-right-1{
+        width: 100%;
+    }
 }
 
 /*

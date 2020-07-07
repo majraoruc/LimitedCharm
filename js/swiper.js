@@ -109,10 +109,10 @@ var swiper = new Swiper('.swiper-container3', {
   loop: true,
   slidesPerSlide: 1,
 
-  autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-  },
+  // autoplay: {
+  //     delay: 3000,
+  //     disableOnInteraction: false,
+  // },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,

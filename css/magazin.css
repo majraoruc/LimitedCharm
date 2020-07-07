@@ -104,6 +104,13 @@
     }
 }
 
+@media screen and (max-width:767px){
+    .magazin-item-wrapper{
+        max-width:600px;
+    }
+}
+
+
 /* @media screen and (max-width:1380px){
     .magazin-item-wrapper{
         max-width: 400px;

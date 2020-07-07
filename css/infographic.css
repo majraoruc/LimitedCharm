@@ -47,3 +47,19 @@ background-color: #ecefe9;
     color: black;
     background-color: white;
 }
+
+@media screen and (max-width: 565px){
+    .infographic-search-term{
+        font-size: 30px;
+    }
+    .infographic-searchButton {
+        width: 120px;
+        height: 120px;
+    }
+
+    .infographic-block-search{
+        width: 100%;
+        height: 120px;
+        display: flex;
+    }
+}

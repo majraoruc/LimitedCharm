@@ -12,7 +12,7 @@
     
 }
 .sale-title-wrapper{
-    font-size: 45px;
+    font-size: 40px;
    margin-left: 50px;
     margin-bottom: 100px;
 }
@@ -120,7 +120,7 @@
         max-width:280px;
     }
 }
-@media screen and (max-width:683px){
+@media screen and (max-width:767px){
     .sale-item-wrapper{
         max-width:600px;
     }

@@ -60,6 +60,18 @@
   }
 }
 
+@media screen and (max-width: 565px){
+  .swiper-container3{
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 458px){
+  .swiper-container3{
+    width: 320px;
+  }
+}
+
 
 
 
