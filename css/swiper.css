@@ -53,6 +53,16 @@
   z-index: 1;
   /* background-image: url("/media/hero-background.png"); */
 }
+
+@media screen and (max-width: 1200px){
+  .swiper-container3{
+    width: 550px;
+  }
+}
+
+
+
+
 .swiper-container-vertical > .swiper-wrapper {
   flex-direction: column;
 }

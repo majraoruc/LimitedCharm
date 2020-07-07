@@ -22,12 +22,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 35px 0px 35px;
+    /* padding: 0px 35px 0px 35px; */
 }
 
 .prednosti-slika{
     max-width: 330px;
-    height: 280px;
+    padding: 100px 0;
     width:100%;
     background-color: white;
     display: flex;
@@ -51,7 +51,8 @@
     
     .prednosti-slika{
         width: 300px;
-        height: 250px;
+        padding: 100px 0;
+        /* height: 250px; */
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -71,10 +72,11 @@
     }
     
     .prednosti-slika{
-        width: 600px;
-        padding: 0 50px;
+        width: 48%;
+        max-width: 500px;
+        padding: 100px 0;
         margin-bottom: 20px;
-        height: 300px;
+        /* height: 300px; */
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -96,7 +98,7 @@
     .prednosti-slika{
         width: 100%;
         margin-bottom: 20px;
-        height: 300px;
+        /* height: 300px; */
         background-color: white;
         display: flex;
         flex-direction: column;

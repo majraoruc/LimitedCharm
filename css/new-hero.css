@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 25px;
-    margin: 0 25px;
+    /* margin: 0 25px; */
 
 }
 
@@ -14,4 +14,11 @@
     padding-bottom: 50px;
     width: 100%;
     margin: auto;
+}
+
+@media screen and (max-width: 1250px){
+    .new-thingy-wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }

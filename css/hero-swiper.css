@@ -2,13 +2,15 @@
     background-image: url("/media/hero-background.png");
     background-repeat: no-repeat;
     /* background-size: cover; */
-    overflow: hidden;
+    /* overflow: hidden; */
+    flex:1;
 }
 
 .swiper-container {
     max-width: 850px;
-    height: 100%;
-    overflow: hidden;
+    min-width: 600px;
+    /* height: 100%; */
+    /* overflow: hidden; */
 }
 
 .swiper-slide {
@@ -78,8 +80,16 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 1620px) {
+@media screen and (max-width: 1670px) {
     .swiper-container {
-        width: 1400px;
+        width: 650px;
+    }
+    .swiper-slide{
+        width: 650px;
+    }
+
+    .swiper-background{
+
     }
 }
+
