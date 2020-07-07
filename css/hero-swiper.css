@@ -15,7 +15,7 @@
 
 .swiper-slide {
     height: 100%;
-    max-width: 850px;
+    /* max-width: 850px; */
     text-align: center;
     font-size: 18px;
     /* display: -webkit-box;
@@ -80,16 +80,12 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1670px) {
+/* @media screen and (max-width: 1670px) {
     .swiper-container {
         width: 650px;
     }
     .swiper-slide{
         width: 650px;
     }
-
-    .swiper-background{
-
-    }
-}
+} */
 
