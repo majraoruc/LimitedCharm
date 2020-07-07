@@ -24,12 +24,26 @@
     <link rel="stylesheet" href="./css/hero-swiper.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/new-hero.css">
+    <link rel="stylesheet" href="./css/green.css">
+    <link rel="stylesheet" href='./css/search.css'>
     <script src="js/swiper-bundle.js"></script>
-    <!-- <script src="https://unpkg.com/swiper@6.0.0/swiper-bundle.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
+    <!--GREEN BANNER-->
+    <div class="green-banner-wrapper">
+        <div class="green-banner">
+            <div class="green-left">
+                <p class="green-info">+387 60 301 80 30</p>
+                <p class="green-info">Svaki radni dan od 09:00 do 17:00</p>
+            </div>
+            <div class="green-right">
+
+            </div>
+        </div>
+    </div>
     <!-- Search Bar Nadir-->
     <div class="header-outer-wrapper">
         <div class="header-wrapper">
@@ -37,13 +51,13 @@
                 <div class="header-logo-wrapper">
                     <img src="./media/header-logo.png" class="header-logo" alt="">
                 </div>
-                <!-- <div class="header-block-search"> -->
-                    <!-- SEARCH -->
-                    <!-- <input type="text" placeholder="Pretraga..." class="search-term">
+                <div class="header-block-search">
+                <!-- SEARCH -->
+                <input type="text" placeholder="Pretraga..." class="search-term">
                     <button type="submit" class="searchButton">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
                     </button>
-                </div> -->
+                </div>
             </div>
             <div class="header-blick-items">
                 <div class="header-block-wrapper">
@@ -67,45 +81,65 @@
             </div>
         </div>
     </div>
-    <!-- Menu Bar Nadir -->
-    <div class="nav-outer-wrapper">
-        <div class="nav-wrapper">
-            <nav>
-                <div class="menu-button-wrapper">
-                    <a id="menu-button">☰</a>
-                </div>
-                <div class="menu" id="menu">
-                    <div class="dropdown-trigger">
-                        <a class="menu-item" href="#">BREND</a>
-                        <div class="menu-dropdown">
-                            <div class="menu-dropdown-wrapper">
-                                <div class="menu-dropdown-title">NAJPOPULARNIJI BRENDOVI</div>
-                                <div class="menu-dropdown-content">
-                                    <a href="#">Hypertea</a>
-                                    <a href="#">GoSlim</a>
-                                    <a href="#">Prostamid</a>
-                                    <a href="#">Nautubone</a>
-                                    <a href="#">Parazol</a>
-                                    <a href="#">Imunomax</a>
-                                    <a href="#">Psorizin</a>
-                                    <a href="#">Varcosin</a>
-                                    <a href="#">GoPotent</a>
-                                    <a href="#">Argan</a>
-                                    <a href="#">Celulles</a>
-                                </div>
+<!-- Menu Bar Nadir -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav" id="topnav">
+      <a href="#home" class="active"></a>
+      <div id="myLinks">
+        <a href="#">BREND</a>
+        <a href="#">PROIZVOD</a>
+        <a href="#">VAŠE TIJELO</a>
+        <a href="#">PRONAĐI UZORAK</a>
+        <a href="#">MAGAZIN</a>
+        <a href="#">% POPUSTI</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction();">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+<div class="nav-outer-wrapper">
+    <div class="nav-wrapper">
+        <nav>
+            <div class="menu-button-wrapper">
+                <a id="menu-button">☰</a>
+            </div>
+            <div class="menu" id="menu">
+                <div class="dropdown-trigger">
+                    <a class="menu-item" href="#">BREND</a>
+                    <div class="menu-dropdown">
+                        <div class="menu-dropdown-wrapper">
+                            <div class="menu-dropdown-title">NAJPOPULARNIJI BRENDOVI</div>
+                            <div class="menu-dropdown-content">
+                                <a href="#">Hypertea</a>
+                                <a href="#">GoSlim</a>
+                                <a href="#">Prostamid</a>
+                                <a href="#">Nautubone</a>
+                                <a href="#">Parazol</a>
+                                <a href="#">Imunomax</a>
+                                <a href="#">Psorizin</a>
+                                <a href="#">Varcosin</a>
+                                <a href="#">GoPotent</a>
+                                <a href="#">Argan</a>
+                                <a href="#">Celulles</a>
                             </div>
                         </div>
                     </div>
-                    <a class="menu-item" href="#">PROIZVOD</a>
-                    <a class="menu-item" href="#" id="wrap-this">VAŠE TIJELO</a>
-                    <a class="menu-item" href="#" id="wrap-this">PRONAĐI UZORAK</a>
-                    <a class="menu-item" href="#">MAGAZIN</a>
-                    <a class="menu-item" href="#">% POPUSTI</a>
                 </div>
+                <a class="menu-item" href="#">PROIZVOD</a>
+                <a class="menu-item" href="#" id="wrap-this">VAŠE TIJELO</a>
+                <a class="menu-item" href="#" id="wrap-this">PRONAĐI UZORAK</a>
+                <a class="menu-item" href="#">MAGAZIN</a>
+                <a class="menu-item" href="#">% POPUSTI</a>
+            </div>
 
-            </nav>
-        </div>
+        </nav>
     </div>
+</div>
     <!-- Hero HyperTea carousel Nadir-->
 
     <!--NEW VERSION OF SWIPER BACKGROUND AND MAGAZINE2 MERGED INTO ONE-->
@@ -237,18 +271,18 @@
 
 
     <!-- Infografik Savjeti Proizvodi Amar-->
-    <div class="infographic-wrapper">
+    <!-- <div class="infographic-wrapper">
         <div class="infographic-inner-wrapper">
-                <div class="infographic-block-search">
-                        <!-- SEARCH -->
-                        <input type="text" placeholder="" class="infographic-search-term" id="input">
+            <div class="infographic-block-search"> -->
+                <!-- SEARCH -->
+                <!-- <input type="text" placeholder="" class="infographic-search-term" id="input">
 
-                        <button type="submit" class="infographic-searchButton">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                </div>
+                <button type="submit" class="infographic-searchButton">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
-    </div>
+    </div> -->
     <!--Majra-------------->
     <div class="sale-wrapper">
         <div class="sale-inner-wrapper">

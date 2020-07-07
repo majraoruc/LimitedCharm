@@ -66,9 +66,9 @@
   }
 }
 
-@media screen and (max-width: 458px){
+@media screen and (max-width: 320px){
   .swiper-container3{
-    width: 320px;
+    width: 300px;
   }
 }
 
