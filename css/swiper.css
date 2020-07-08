@@ -247,7 +247,7 @@
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-  /* left: 10px; */
+  /* left: 20px; */
   right: auto;
 }
 .swiper-button-prev:after,

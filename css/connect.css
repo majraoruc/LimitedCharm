@@ -12,7 +12,7 @@
     margin: auto;
     justify-content: space-between;
     /* align-content: center; */
-    padding: 0 20px;
+    padding: 0 40px;
 }
 .connect-left-title{
     padding-bottom: 55px;
@@ -22,7 +22,7 @@
 .connect-left-wrapper, .connect-right-wrapper{
     display: flex;
     flex-direction: column;
-    width:48%;
+    width:45%;
 }
 
 .connect-btn{
