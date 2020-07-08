@@ -12,21 +12,10 @@
     display: flex;
     max-width: 1600px;
     padding-bottom: 50px;
-    width: 63%;
+    width: 100%;
     margin: auto;
 }
 
-
-@media screen and (max-width: 1600px){
-    .new-thingy-wrapper{
-    
-        display: flex;
-        max-width: 1600px;
-        padding-bottom: 50px;
-        width: 100%;
-        margin: auto;
-    }
-}
 
 @media screen and (max-width: 1250px){
     .new-thingy-wrapper{
