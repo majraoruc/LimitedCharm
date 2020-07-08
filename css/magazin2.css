@@ -101,19 +101,6 @@
     max-height: 100%;
 }
 
-@media screen and (max-width: 1600px) {
-    .magazin-left-1 {
-        /* width: 530px; */
-        /* height: 800px; */
-    }
-    .magazin-right-1 {
-        /* width: 530px; */
-        /* height: 800px; */
-    }
-    /* .magazin-inner-wrapper-1 {
-        width: 530px;
-    } */
-}
 
 @media screen and (max-width: 1600px) {
     .magazin-left-1 {
@@ -138,6 +125,35 @@
     .magazin-text-1{
         font-size: 18px;
         padding-bottom: 55px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1294px) {
+    .magazin-left-1 {
+        /* width: 440px; */
+        /* height: 800px; */
+    }
+    .magazin-right-1 {
+        /* width: 440px; */
+        /* height: 800px; */
+    }
+    /* .magazin-inner-wrapper-1 {
+        width: 440px;
+    } */
+    .magazin-wrapper-1{
+        /* padding-left: 120px; */
+    }
+    .magazin-second-title-1{
+        padding: 20px 0 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .magazin-text-1{
+        font-size: 18px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
         
     }
     
