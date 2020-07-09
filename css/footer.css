@@ -16,9 +16,9 @@
     margin: auto;
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
-    padding: 90px 0;
+    padding: 70px 0;
     
 }
 
@@ -66,13 +66,13 @@
 
 .footer-slika{
     /* width: 330px; */
-    padding: 0 35px;
+    /* padding: 0 35px; */
 }
 
 .footer-kontakt{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    /* width: 300px; */
 }
 
 .footer-leaf{
@@ -88,7 +88,7 @@
         justify-content: space-between;
         position: relative;
         overflow: hidden;
-        padding: 0 35px;
+        /* padding: 0 35px; */
         /* width: 1480px; */
         
     }
@@ -104,14 +104,14 @@
     
     .footer-slika{
         /* width: 300px; */
-        padding-right: 40px;
-        padding-left: 40px;
+        /* padding-right: 40px;
+        padding-left: 40px; */
     }
     
     .footer-kontakt{
         display: flex;
         flex-direction: column;
-        width: 270px;
+        /* width: 270px; */
     }
     
     .footer-leaf{
@@ -147,7 +147,7 @@
     .footer-kontakt{
         display: flex;
         flex-direction: column;
-        width: 45%;
+        /* width: 45%; */
     }
 
     
@@ -184,8 +184,8 @@
     .footer-kontakt{
         display: flex;
         flex-direction: column;
-        width: 200px;
-        margin-bottom: 50px;
+        /* width: 200px; */
+        /* margin-bottom: 50px; */
         /* justify-content: center; */
     }
 }
@@ -220,8 +220,8 @@
         .footer-kontakt{
             display: flex;
             flex-direction: column;
-            width: 350px;
-            margin-bottom: 50px;
+            /* width: 350px; */
+            /* margin-bottom: 50px; */
             /* justify-content: center; */
         }
     }
