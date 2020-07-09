@@ -1,5 +1,5 @@
 .swiper-background {
-    background-image: url("/media/hero-background.png");
+    background-image: url("./media/hero-background.png");
     background-repeat: no-repeat;
     /* background-size: cover; */
     /* overflow: hidden; */

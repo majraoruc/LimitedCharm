@@ -48,7 +48,7 @@
     flex-direction: column;
     /* width: 700px; */
     margin-bottom: 25px;
-    background: linear-gradient( rgba(83, 81, 81, 0.65),rgba(83, 81, 81, 0.65)), url("/media/magazine-image.png") ;
+    background: linear-gradient( rgba(83, 81, 81, 0.65),rgba(83, 81, 81, 0.65)), url("./media/magazine-image.png") ;
     /* background-image: url("/media/magazine-image.png");
     background-repeat: no-repeat; */
     /* height: 800px; */
@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: column;
     /* width: 700px; */
-    background: linear-gradient( rgba(83, 81, 81, 0.65),rgba(83, 81, 81, 0.65)),url("/media/sicknesses-image.png");
+    background: linear-gradient( rgba(83, 81, 81, 0.65),rgba(83, 81, 81, 0.65)),url("./media/sicknesses-image.png");
     /* background-image: url("/media/sicknesses-image.png");
     background-repeat: no-repeat; */
     /* height: 800px; */
