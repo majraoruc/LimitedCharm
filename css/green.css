@@ -5,8 +5,8 @@
 
 .green-banner {
     max-width: 1600px;
-    padding-right: 10px;
-    padding-left: 10px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
     padding-top: 2px;
     padding-bottom: 2px;
     margin-right: auto;
@@ -23,7 +23,7 @@
 .green-right {
     display: flex;
     flex-direction: row;
-    padding-right: 50px;
+    /* padding-right: 50px; */
 }
 
 .fa {
@@ -40,7 +40,7 @@
 
 .green-kontakt {
     display: flex;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 .green-icon {
