@@ -1,10 +1,10 @@
-.connect-body-wrapper{
+.connect-body-wrapper {
     background-color: #ecefe9;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
 
-.connect-main-wrapper{
+.connect-main-wrapper {
     max-width: 1600px;
     display: flex;
     flex-direction: row;
@@ -14,18 +14,19 @@
     /* align-content: center; */
     padding: 0 40px;
 }
-.connect-left-title{
+
+.connect-left-title {
     padding-bottom: 55px;
     padding-top: 55px;
 }
 
-.connect-left-wrapper, .connect-right-wrapper{
+.connect-left-wrapper, .connect-right-wrapper {
     display: flex;
     flex-direction: column;
-    width:45%;
+    width: 45%;
 }
 
-.connect-btn{
+.connect-btn {
     color: white;
     background-color: #92c83e;
     border-radius: 5px;
@@ -35,26 +36,29 @@
     align-items: center;
     justify-content: center;
     line-height: 2.25;
-    font-size:25px;
+    font-size: 25px;
 }
-.connect-btn:hover{
+
+.connect-btn:hover {
     cursor: pointer;
 }
-.connect-btn:focus, .connect-input:focus{
+
+.connect-btn:focus, .connect-input:focus {
     outline: none;
 }
 
-.connect-input{
-    width: 80%;
-    height: 90px;
+.connect-input {
+    width: 100%;
+    height: 70px;
     border-radius: 5px;
     background-color: #ecefe9;
     border: 0px;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
-    padding-left:20px;
+    padding-left: 20px;
 }
-.connect-inside-wrapper{
+
+.connect-inside-wrapper {
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
@@ -62,57 +66,87 @@
     justify-content: space-between;
     /* max-width: 800px; */
     /* justify-content: flex-start; */
-    height:100%;
-
+    height: 100%;
 }
 
-.connect-btn-wrapper{
+.connect-btn-wrapper {
     /* flex: 1; */
-    padding:30px;
+    padding: 30px;
 }
-.connect-text{
+
+.connect-text {
     flex: 1;
-    padding: 0 60px 0px 30px;
-    text-align: justify;
+    padding: 0 30px 0px 30px;
+    /* text-align: justify; */
 }
-.connect-header{
-/*     max-width: 770px;
+
+.connect-header {
+    /*     max-width: 770px;
     max-height: 200px; */
-    
+    max-height: 150px;
 }
-.connect-subtitle{
+
+.connect-subtitle {
     /* flex: 1; */
     padding: 30px 30px 20px;
     width: 100%;
-    height: 120px;
+    /* height: 120px; */
+}
+
+@media screen and (max-width:1100px) {
+    .connect-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .connect-left-wrapper {
+        width: 100%;
+    }
+    .connect-right-wrapper {
+        width: 100%;
+    }
+    .connect-header {
+        max-height: 170px;
+    }
 }
 
 @media screen and (max-width: 683px) {
-    .connect-main-wrapper{
+    .connect-main-wrapper {
         flex-wrap: wrap;
     }
-
-    .connect-left-wrapper{
+    .connect-left-wrapper {
         width: 100%;
     }
-
-    .connect-right-wrapper{
-        width: 100%;
-    }
-
-}
-
-  @media screen and (max-width:1000px){
-    .connect-main-wrapper{
-        flex-wrap: wrap;
-    }
-    .connect-left-wrapper{
-        width: 100%;
-    }
-    .connect-right-wrapper{
+    .connect-right-wrapper {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .connect-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .connect-left-wrapper {
+        width: 100%;
+    }
+    .connect-right-wrapper {
+        width: 100%;
+    }
+    .connect-header{
+        max-height: 110px;
+    }
+    .connect-texty{
+        font-size: 16px;
+    }
+    .connect-btn-wrapper{
+        padding: 20px;
+    }
+    .connect-btn{
+        margin: auto;
+    }
+    .connect-input{
+        height: 40px;
+    }
+}
+
 /*
 @media screen and (max-width:1500px){
     .connect-inside-wrapper{

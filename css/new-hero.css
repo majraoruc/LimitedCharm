@@ -1,17 +1,19 @@
 .new-thingy{
-    /* background-image: url("/media/hero-background.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    /* overflow: hidden; */
+    flex:1;
     padding-top: 25px;
     margin: 0 25px;
 
 }
 
 .new-thingy-wrapper{
-    
+    background-image: url("/media/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     max-width: 1600px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     width: 100%;
     margin: auto;
 }
@@ -20,7 +22,7 @@
 @media screen and (max-width: 1250px){
     .new-thingy-wrapper{
         flex-wrap: wrap;
-        flex-direction: column;
+        /* flex-direction: column; */
         max-width: 1250px;
     }
 }

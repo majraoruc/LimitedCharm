@@ -1,17 +1,12 @@
 .swiper-background {
-    background-image: url("/media/hero-background.png");
-    background-repeat: no-repeat;
+    /* background-image: url("/media/hero-background.png");
+    background-repeat: no-repeat; */
     /* background-size: cover; */
     /* overflow: hidden; */
-    flex:1;
+    /* flex:1; */
+    width: 100%;
 }
 
-.swiper-container {
-    max-width: 850px;
-    min-width: 600px;
-    /* height: 100%; */
-    /* overflow: hidden; */
-}
 
 .swiper-slide {
     height: 100%;
@@ -55,12 +50,36 @@
     /* margin-top: 25px; */
 }
 
-.swiper-slider-text-header h2 {
+.swiper-text1 {
     font-size: 85px;
     font-weight: 700;
     color: #6b2b2e;
     padding-bottom: 40px;
 }
+
+.swiper-text2 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #39577c;
+    padding-bottom: 40px;
+}
+
+.swiper-text3 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #38393f;
+    padding-bottom: 40px;
+}
+
+.swiper-text4 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #b38147;
+    padding-bottom: 40px;
+}
+
+
+
 
 .swiper-slider-text-main {
     font-weight: 800;

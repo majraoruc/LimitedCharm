@@ -40,7 +40,7 @@
 
 .swiper-container3 {
   width: 850px;
-  /* height: 100%; */
+  height: 100%;
   /* overflow: hidden; */
   margin-left: auto;
   margin-right: auto;
@@ -54,26 +54,29 @@
   /* background-image: url("/media/hero-background.png"); */
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1250px){
   .swiper-container3{
-    width: 550px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1185px){
+  .swiper-container3{
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 565px){
   .swiper-container3{
-    width: 450px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px){
   .swiper-container3{
-    width: 300px;
+    width: 100%;
   }
 }
-
-
-
 
 .swiper-container-vertical > .swiper-wrapper {
   flex-direction: column;
