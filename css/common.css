@@ -21,6 +21,10 @@ p{
     font-size: 20px;
     /* line-height: 1.5; */
     margin:0;
+    margin-block-start: unset;
+    margin-block-end: unset;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
 }
 
 *{

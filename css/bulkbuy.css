@@ -1,7 +1,8 @@
-.bulkbuy-wrapper{
-        background-color:#ecefe9;
+.bulkbuy-wrapper {
+    background-color: #ecefe9;
 }
-.bulkbuy-inner-wrapper{
+
+.bulkbuy-inner-wrapper {
     max-width: 1600px;
     width: 100%;
     display: flex;
@@ -9,118 +10,130 @@
     padding: 25px 0 0 0;
     margin: auto;
     position: relative;
-    
 }
-.bulkbuy-title-wrapper{
+
+.bulkbuy-title-wrapper {
     /* font-size: 40px; */
-   margin-left: 50px;
+    margin-left: 50px;
     margin-bottom: 30px;
-    margin-top:50px;
-}
-.bulkbuy-arrows-wrapper{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between; 
-    width:100%;
-    position: absolute;
-    top:350px;  
-    z-index: 10;  
+    margin-top: 50px;
 }
 
-
-.bulkbuy-items-wrapper{
+.bulkbuy-arrows-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:0 50px;
+    width: 100%;
+    position: absolute;
+    top: 350px;
+    z-index: 10;
 }
 
-.bulkbuy-item-wrapper{
-    display:flex;
-    max-width:330px;
-    max-height:515px;
-    min-height: 515px;
-    width:100%;
-    height:100%;
-    background-color: #ffffff ;
-    position:relative;
-    
+.bulkbuy-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
 }
-.bulkbuy-image-wrapper{
+
+.bulkbuy-item-wrapper {
+    display: flex;
+    max-width: 330px;
+    max-height: 550px;
+    min-height: 550px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.bulkbuy-image-wrapper {
     position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100%;
-    top:-50px;
+    width: 100%;
+    top: -50px;
+}
 
+.bulkbuy-image {
+    width: 180px;
+    height: 220px;
 }
-.bulkbuy-image{
-   width:180px;
-   height:220px;
-}
-.bulkbuy-item-text-wrapper{
-    display:flex;
+
+.bulkbuy-item-text-wrapper {
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
     margin: 50px 15px 20px 15px;
-
 }
-.bulkbuy-item-title-wrapper{
-    margin-top:130px;
+
+.bulkbuy-item-title-wrapper {
+    margin-top: 130px;
     margin-bottom: 25px;
 }
-.bulkbuy-item-text{
-   /* font-size:20px; */
+
+.bulkbuy-item-text {
+    /* font-size:20px; */
 }
-.bulkbuy-item-price{
-    margin:20px 0;
-    color:#377d3c;
+
+.bulkbuy-item-price {
+    margin: 20px 0;
+    color: #377d3c;
     font-weight: 600;
 }
-.bulkbuy-item-button{
-    width:170px;
-    height:55px;
+
+.bulkbuy-item-button {
+    width: 170px;
+    height: 55px;
     background-color: #92c83e;
-    color:white;
-    font-size:25px;
-    margin:auto;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+    bottom: 0;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     text-align: center;
     /* padding-top:10px; */
     line-height: 2.25;
-    
 }
 
-.bulkbuy-item-button{
+.bulkbuy-item-button {
     cursor: pointer;
 }
-.bulkbuy-item-button:focus, .bulkbuy-item-button:focus{
+
+.bulkbuy-item-button:focus, .bulkbuy-item-button:focus {
     outline: none;
 }
 
+@media screen and (max-width:1560px) {
+    .bulkbuy-item-wrapper {
+        max-width: 320px;
+    }
+}
 
+@media screen and (max-width:1420px) {
+    .bulkbuy-item-wrapper {
+        max-width: 300px;
+        /* max-height: 560px;
+        min-height: 560px; */
+    }
+}
 
-@media screen and (max-width:1560px){
-    .bulkbuy-item-wrapper{
-        max-width:320px;
+@media screen and (max-width:1380px) {
+    .bulkbuy-item-wrapper {
+        max-width: 300px;
+        /* max-height: 550px;
+        min-height: 550px; */
     }
 }
-@media screen and (max-width:1420px){
-    .bulkbuy-item-wrapper{
-        max-width:300px;
-    }
-}
-@media screen and (max-width:1330px){
-    .bulkbuy-item-wrapper{
-        max-width:280px;
-    }
-}
+
 @media screen and (max-width:767px) {
-    .bulkbuy-item-wrapper{
+    .bulkbuy-item-wrapper {
         max-width: 600px;
+        max-height: 450px;
+        min-height: 450px;
     }
 }
