@@ -216,7 +216,8 @@
   top: 50%;
   width: 50px;
   height: 50px;
-  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
+  margin-top: auto;
+  margin-bottom: auto;
   z-index: 10;
   cursor: pointer;
   display: flex;
@@ -228,7 +229,7 @@
   border: 2px solid #92c83e;
   padding: 30px;
   border-radius: 50%;
-  opacity: 85%;
+  opacity: 80%;
   
   /* color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
 }

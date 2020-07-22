@@ -93,7 +93,8 @@
     background-color: #92c83e;
     color: white;
     font-size: 25px;
-    margin: auto;
+    margin: 0 auto;
+    bottom: 0;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
