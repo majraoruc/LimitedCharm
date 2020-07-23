@@ -58,6 +58,13 @@
     margin: 0 30px 10px 30px;
 }
 
+.back-button{
+    border: none;
+    padding: 50px;
+    color: #428a46;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 900px){
     .single-blog-header-image-wrapper{
         max-width: 600px;
