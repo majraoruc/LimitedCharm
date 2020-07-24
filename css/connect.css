@@ -1,5 +1,5 @@
 .connect-body-wrapper {
-    background-color: #ecefe9;
+    /* background-color: #ecefe9; */
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
@@ -16,14 +16,14 @@
 }
 
 .connect-left-title {
-    padding-bottom: 55px;
+    padding-bottom: 25px;
     padding-top: 55px;
 }
 
 .connect-left-wrapper, .connect-right-wrapper {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
 }
 
 .connect-btn {
@@ -50,19 +50,24 @@
 .connect-input {
     width: 100%;
     height: 70px;
-    border-radius: 5px;
-    background-color: #ecefe9;
+    border-radius: 10px;
+    /* background-image: url(../media/newsletter.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 86px; */
     border: 0px;
     font-size: 20px;
     margin-top: 20px;
     padding-left: 20px;
+    border: 3px solid white;
+    border-right: none;
 }
 
 .connect-inside-wrapper {
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
-    background-color: white;
+    /* background-color: white; */
     justify-content: space-between;
     /* max-width: 800px; */
     /* justify-content: flex-start; */
@@ -71,12 +76,12 @@
 
 .connect-btn-wrapper {
     /* flex: 1; */
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .connect-text {
     flex: 1;
-    padding: 0 30px 0px 30px;
+    /* padding: 0 30px 0px 30px; */
     /* text-align: justify; */
 }
 
@@ -88,9 +93,44 @@
 
 .connect-subtitle {
     /* flex: 1; */
-    padding: 30px 30px 20px;
+    padding: 25px 0;
     width: 100%;
     /* height: 120px; */
+}
+
+.newsletter-box{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    /* padding: 25px 0; */
+}
+
+.send-term{
+    width: 100%;
+    border: 3px solid white;
+    border-right: none;
+    font-size: 25px;
+    padding: 20px;
+    height: 120px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+
+.sendButton{
+    width: 50px;
+    height: 120px;
+    border: 1px solid #92c83e;
+    background: #92c83e;
+    text-align: center;
+    color: #ffffff;
+    /* background-image: url("/media/header-search.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 @media screen and (max-width:1100px) {
@@ -120,31 +160,35 @@
     }
 }
 
+@media screen and (max-width: 520px) {
+    .newsletter-box {
+        height: 90px;
+    }
+    .sendButton {
+        height: 90px;
+    }
+    .send-term {
+        height: 90px;
+        font-size: 20px;
+    }
+    ::placeholder{
+        color: transparent;
+    }
+}
+
 @media screen and (max-width: 420px) {
-    .connect-main-wrapper {
-        flex-wrap: wrap;
+    .newsletter-box {
+        height: 50px;
     }
-    .connect-left-wrapper {
-        width: 100%;
+    .sendButton {
+        height: 50px;
     }
-    .connect-right-wrapper {
-        width: 100%;
+    .send-term {
+        height: 50px;
+        font-size: 18px;
+        word-wrap: break-word;
     }
-    .connect-header{
-        max-height: 110px;
-    }
-    .connect-texty{
-        font-size: 16px;
-    }
-    .connect-btn-wrapper{
-        padding: 20px;
-    }
-    .connect-btn{
-        margin: auto;
-    }
-    .connect-input{
-        height: 40px;
-    }
+    
 }
 
 /*

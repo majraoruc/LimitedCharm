@@ -48,10 +48,10 @@
                         <p class="mobile-green-info">09:00 do 17:00</p>
                     </div>
                 </div>
-                <div class="mobile-green-right">
+                <!-- <div class="mobile-green-right">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-instagram"></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -68,10 +68,10 @@
                     <p class="green-info">Svaki radni dan od 09:00 do 17:00</p>
                 </div>
             </div>
-            <div class="green-right">
+            <!-- <div class="green-right">
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Search Bar Nadir-->
@@ -79,7 +79,7 @@
         <div class="header-wrapper">
             <div class="header-left-wrapper">
                 <div class="header-logo-wrapper">
-                   <a href='#'> <img src="./media/header-logo.png" class="header-logo" alt=""> </a>
+                    <a href='#'> <img src="./media/header-logo.png" class="header-logo" alt=""> </a>
                 </div>
                 <div class="header-block-search">
                     <!-- SEARCH -->
@@ -949,10 +949,7 @@
 
 
         <div class="connect-main-wrapper">
-
-
-
-            <div class="connect-left-wrapper">
+            <!-- <div class="connect-left-wrapper">
                 <h3 class="connect-left-title">Pratite nas</h3>
                 <div class="connect-inside-wrapper">
                     <img class="connect-header" src="./media/facebook-photo.png">
@@ -962,28 +959,33 @@
                             incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                             ut aliquip ex ea commodo consequat.</p>
-
                     </div>
                     <div class="connect-btn-wrapper">
                         <div class="connect-btn">Saznaj više</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
 
             <div class="connect-right-wrapper">
                 <h3 class="connect-left-title">Newsletter</h3>
                 <div class="connect-inside-wrapper">
-                    <img class="connect-header" src="./media/newsletter-photo.png">
-                    <h4 class="connect-subtitle">Obavijesti</h4>
+                    <!-- <img class="connect-header" src="./media/newsletter-photo.png"> -->
+                    <h4 class="connect-subtitle">Pretplati se</h4>
                     <div class="connect-text">
-                        <p class="connect-texty">Unesite Vašu email adresu</p>
-                        <input class="connect-input">
+                        <p><?= $errorMessage; ?></p>
                     </div>
-                    <div class="connect-btn-wrapper">
-                        <div class="connect-btn">Prijavi se</div>
+                    <div class="newsletter-box">
+                        <input type="email" name="email" id="inputEmail" placeholder="Unesite Vašu email adresu..."
+                            class="send-term" required>
+                        <button type="submit" name="submit" class="sendButton">
+                            <i class="fa fa-send-o fa_custom" aria-hidden="true"></i>
+                        </button>
                     </div>
+                    <!-- <div class="connect-btn-wrapper">
+                            <div class="connect-btn">Prijavi se</div>
+                        </div> -->
                 </div>
             </div>
 
